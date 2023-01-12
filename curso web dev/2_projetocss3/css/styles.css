@@ -1,0 +1,52 @@
+body {
+  background-image: url("../imgs/fundo.png");
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+div {
+  max-width: 900px;
+}
+
+#menu {
+  font-size: 20px;
+  background-color: tan;
+  padding:10px;
+  margin-bottom: 0%;
+}
+
+#menu ul {
+  justify-content: left;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-bottom: 0%;
+}
+
+#menu li {
+  display: inline;
+  font-weight: bold;
+  text-decoration: ;
+}
+
+#menu a {
+  text-decoration: none;
+  color:gray;
+}
+
+#about {
+  background-color: beige;
+  padding: 10px;
+}
+
+.foto {
+  border: 10px solid tan;
+}
+
+#about h3 {
+  color: green;
+  font-size: 20px;
+}
+
+#direitos {
+  text-align: center;
+}

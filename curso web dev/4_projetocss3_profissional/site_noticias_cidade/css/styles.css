@@ -1,0 +1,222 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: url(../imgs/fundo.png) repeat-x ;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 750px;
+  margin: 0px auto;
+}
+
+/* Cabeçalho */
+
+#header {
+  height: 233px;
+  background: url(../imgs/detalhe-topo.png) no-repeat top right;
+}
+
+  #logo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  #menu-cabecalho {
+    list-style: none;
+    padding: 0;
+  }
+
+    #menu-cabecalho li{
+      float: left;
+      background-color: darkred;
+    }
+
+    #menu-cabecalho li#selecionado {
+      background-color: red;
+    }
+    
+      #menu-cabecalho li a{
+        background: darkred url(../imgs/divisor.png) no-repeat center left;
+        color: white;
+        padding: 5px 19px;
+        text-decoration: none;
+        line-height: 45px;
+      }
+
+      #menu-cabecalho li.primeiro a{
+        background: none;
+      }
+
+      #menu-cabecalho li a:hover {
+        color:black;
+      }
+
+
+/* Conteudo */
+
+.caixa {
+  background: url(../imgs/fundo-caixa.png);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+  .caixa h2 {
+    background-color: darkblue;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 1.1em;
+  }
+
+/* Conteúdo principal */
+#conteudo-principal {
+  float: right;
+  width: 75%;
+  margin-bottom: 20px;
+}
+  #conteudo-principal .caixa{
+    float: left;
+    margin-left: 10px;
+    width: 45%;
+  }
+
+    .caixa-conteudo {
+      background: white;
+      padding: 5px;
+    }
+
+      .noticia h3 {
+        margin: 0;
+        padding: 2px 5px;
+        /* padding-bottom: 0; */
+        display: inline-block;
+        background-color: darkred;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: white;
+      }
+      
+      .noticia img {
+        max-width: 98%;
+        border: 3px solid lightgray;
+      }
+      
+      .noticia p {
+        margin: 0;
+      }
+
+      .noticia a {
+        color: darkred;
+        padding-top: 2px;
+      }
+
+      .noticia a:hover {
+        color: red;
+      }
+
+/* Caixas de mini noticias */
+      .caixa-conteudo ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+        .noticia-resumida {
+          clear: both;
+          padding: 5px;
+          border-bottom: 1px solid gray;
+          overflow: hidden;
+        }
+        
+          .noticia-resumida img{
+            float: left;
+            width: 37%;
+            border: none;
+          }
+
+          .mini-noticia-texto{
+            float: left;
+            width: 60%;
+            text-align: left;
+            margin-left: 5px;
+          }
+
+            .mini-noticia-texto h4, .mini-noticia-texto p{
+              margin: 0;
+            }
+
+            .mini-noticia-texto h4 {
+              text-transform: uppercase;
+              font-size: 0.8em;
+              color: blue;
+            }
+            
+            .mini-noticia-texto p {
+              display: block;
+              color: black;
+              height: 60%;
+              font-size: 0.7em;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+
+        .noticia-resumida:hover {
+          background-color: lightgray;
+        }        
+
+/* Side bar */
+
+#side-bar {
+  float: right;
+  width: 25%;
+}
+
+  .menu-lateral-item a {
+    text-decoration: none;
+
+  }
+
+    .menu-lateral-item a h4{
+      line-height: 20px;
+      color: black;
+      padding: 5px;
+      margin: 0;
+      border-bottom: 1px solid lightgray;
+    }
+  
+    .menu-lateral-item a h4:hover {
+      background: lightcyan url(../imgs/marcador.png) no-repeat left center;
+      text-indent: 15px;
+      color: lightgray;
+    }
+
+    #email {
+      width: 80%;
+      line-height: 2em;
+      border: 2px solid darkred;
+    }
+
+    #cadastrar-button {
+      line-height: 2em;
+      border: 2px solid darkred;
+      color: white;
+      font-size: 0.95em;
+      background-color: red;
+    }
+/* Rodapé */
+ 
+#rodape {
+  clear: both;
+  padding: 20px;
+  background: darkblue;
+  margin-top: 500px;
+}
+
+  #rodape h2 {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+    font-size: 1em;
+  }

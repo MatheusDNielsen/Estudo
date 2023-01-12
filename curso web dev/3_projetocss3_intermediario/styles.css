@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+/********* Header **********/
+
+#header {
+  background-color: rgb(225, 225, 2);
+  color: aliceblue;
+  text-align: center;
+}
+
+#logo {
+  padding-top: 30px;
+}
+
+  #logo span{
+    color: rgb(37, 33, 33);
+  }
+
+#menu {
+  display: inline-block;
+  padding:15px;
+
+}
+
+  #menu ul{
+    list-style: none;
+  }
+
+  #menu li {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+    #menu li a {
+      text-decoration: none;
+      color: aliceblue;
+      padding: 10px; 
+    }
+
+    #menu li a:hover{
+      color: rgb(225, 225, 2);
+      background-color: aliceblue;
+    }
+
+/********* Conteudo **************/
+#main {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+#content, .side-bar {
+  width: fit-content;
+  float: left;
+  padding: 0px;
+}
+
+#content {
+  margin-right: 20px;
+}
+
+/********* Post **************/
+.post{
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 10px
+}
+
+.post, .side-post {
+  padding: 15px;
+  background-color: aliceblue;
+  
+}
+
+  .post-header {
+    margin-bottom: 10px;
+  }
+
+    .post-header h3 {
+      color: rgb(225, 225, 2);
+    }
+
+  .post-content img{
+    width: 600px;
+  }
+
+/********* Post Lateral **************/
+.side-post {
+  margin-bottom: 20px;
+}
+
+  .side-post h3 {
+    background-color: lightgray;
+    padding: 5px;
+  }
+
+  .side-post ul {
+    list-style: none;
+  }
+
+  .side-post li {
+    padding: 2px 0px;
+  }
+
+  .side-post a {
+    color: rgb(225, 225, 2);
+    text-decoration: none;
+  }
+
+  .side-post hr {
+    margin: 5px -5px;
+  }
+
+/********* Rodapé **************/
+#direitos {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: lightgray;
+  margin-bottom: 0px;
+}

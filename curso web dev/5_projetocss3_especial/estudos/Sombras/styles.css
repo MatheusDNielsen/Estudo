@@ -1,0 +1,34 @@
+#container {
+    display: flex;
+}
+
+#caixa1, #caixa2 {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    margin: 20px;
+    padding: 8px;
+}
+
+#caixa1 {
+    /* Adiciona uma sombra a caixa */
+    box-shadow: 20px 40px 2px black;
+}
+
+#caixa2 {
+    /* Adiciona uma sombra a caixa */
+    box-shadow: 20px 40px 2px 20px black;
+}
+
+#caixa1 h1 {
+    color: white;
+    /* Adiciona uma sombra ao texto */
+    text-shadow: 20px 20px purple;
+}
+
+#caixa2 h1 {
+    color: white;
+    /* Adiciona uma sombra ao texto */
+    text-shadow: 20px 20px 5px purple;
+}
+

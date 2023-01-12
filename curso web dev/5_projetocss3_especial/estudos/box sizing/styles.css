@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+}
+
+#caixa1 {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    padding: 10px;
+    margin: 10px;
+
+    /* Define um arredondamento para a caixa */
+    border-radius: 10px;
+
+    /* Define um arredondamento em versões antigas do chrome e safari */
+    -webkit-border-radius: 10px;
+
+    /* Define um arredondamento em versões antigas do mozilla */
+    -moz-border-radius: 10px;
+}
+
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 50px 80px 100px;
+}
+
+#caixa3 {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 50px;
+
+    /* Define que o tamanho da caixa (conteudo + padding) será igual ao definido anteriormente em width */
+    box-sizing: border-box;
+}
