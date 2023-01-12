@@ -169,7 +169,7 @@ section#galeria {
     float: left; 
     width: 126px;
     height: 133px;
-    background: url(/imgs/fundo-foto.png) no-repeat;
+    background: url(../imgs/fundo-foto.png) no-repeat;
     text-align: center;
     margin: 0 10px 10px 10px;
 }
